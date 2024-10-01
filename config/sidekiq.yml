@@ -1,0 +1,4 @@
+:schedule:
+  sync_employees:
+    cron: '0 * * * *'  # Run every hour
+    class: SyncEmployeesJob 
