@@ -1,24 +1,53 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Ruby on Rails Employee Management
 
-Things you may want to cover:
+This is a Ruby on Rails project that consumes an API and saves employees to the Postgres database.
+Using adapter design, and service classes, and tailwind to style a simple UI.
 
-* Ruby version
+## Info
 
-* System dependencies
+ - Ruby 3.1.1
+ - Ruby on Rails 7.2.1
 
-* Configuration
+## Environment Setup
 
-* Database creation
+Ensure you have Ruby and Rails installed on your system. Install project dependencies using the following command:
 
-* Database initialization
+```bash
+  bundle install
+```
 
-* How to run the test suite
+Additionally, configure the database by running the following commands:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+  rails db:create
+  rails db:migrate
+```
 
-* Deployment instructions
+### Start the project:
 
-* ...
+```bash
+  rails s
+```
+
+### Run test:
+
+```bash
+  rspec
+```
+
+## Contributions
+
+Contributions are always welcome!
+
+## Support
+
+For support, email contatos_leo@hotmail.com.
+
+## Tech Stack
+
+**Server:** Ruby, Rspec, Sidekiq.
+
+## Authors
+
+- [@leoholiveira](https://github.com/leoholiveira)
