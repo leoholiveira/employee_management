@@ -43,7 +43,7 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-  gem 'pry', '~> 0.14.1'
+  gem 'pry', '~> 0.15.2'
 end
 
 group :development do
